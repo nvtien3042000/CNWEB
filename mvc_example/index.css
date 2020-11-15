@@ -1,0 +1,155 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    background: #cccccc;
+}
+
+#container{
+    width: 90%;
+    background: #cccccc;
+    margin: 0 auto;
+    
+}
+
+#header{
+    width: 100%;
+    height: 70px;
+    background:#2b89c6;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    color: #f6ffff;
+}
+#header #main_title{
+    width: 70%;
+    float: left;
+}
+
+#header #main_title h1{
+    font-size: 32px ;
+    padding-top: 15px;
+    margin-bottom: 0;
+    text-indent: 20px;
+    margin-top: 0;
+}
+
+#header #main_title h5{
+    margin-top: 0px;
+    text-indent: 25px;
+}
+#header #menu_of_header{
+    width: 30%;
+    height: 30%;
+    float: right;
+    position: relative;
+    top: 10px;
+}
+
+#header #menu_of_header ul{
+    margin: 0;
+    padding: 0 10px;
+    float: right;
+}
+
+#header #menu_of_header ul li{
+   list-style: none;
+   float: left;
+   padding: 0 13px;
+}
+
+#header #menu_of_header ul #header_ul_li_mid{
+    border-left: 1px solid;
+}
+
+#header #menu_of_header ul li a{
+    text-decoration: none ;
+    display: block;
+    line-height: 27px;
+    color: #f6ffff;
+    
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+#menu{
+    height: 40px;
+    background: #2b89c6;
+    width: 100%;
+    border-top: #247fbd solid 1px;
+    border-bottom: #247fbd solid 1px;
+    
+}
+
+#menu ul{
+    list-style-type: none;
+    background: #2b89c6;
+    /* text-align: center; */
+    
+}
+
+#menu ul li{
+    display: inline-table;
+    height: 40px;
+    /* width: 100px; */
+    line-height: 40px;
+    position: relative;
+}
+
+#menu ul li a{
+    text-decoration: none;
+    color: #f6ffff;
+    display: block;
+    padding: 0 30px;
+}
+ #menu ul li a:hover {
+    background: #f1f1f1;
+    color: #333; 
+ }
+
+ #menu ul li > .sub-menu{
+     display: none;
+     position: absolute;
+ }
+
+ #menu ul li:hover .sub-menu{
+     display: block;
+ }
+
+ .sub-menu li{
+     display: block;
+     width: 150px;
+ }
+
+ #menu-inf li{
+    width: 200px;
+ }
+
+ #menu-del li{
+    width: 170px;
+ }
+ 
+
+#main_1{
+    height: 600px;
+    background: #2b89c6;
+    padding-top: 5px;
+}
+
+#main_2{
+    width: 99%;
+    height: 99%;
+    margin: auto auto;
+    /* margin-top: 5px; */
+}
+
+#content{
+    width: 100%;
+    height: 100%;
+    background: #e7f4fe;
+    color: #f48262;
+    font-weight: bold;
+    float: left;
+}
+
